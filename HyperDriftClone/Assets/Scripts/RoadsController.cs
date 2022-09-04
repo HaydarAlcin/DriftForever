@@ -5,9 +5,17 @@ using UnityEngine;
 public class RoadsController : MonoBehaviour
 {
     
-    void Start()
+
+    
+
+    
+
+   
+    void Awake()
     {
-        
+       
+
+
     }
 
     private void FixedUpdate()
@@ -17,6 +25,11 @@ public class RoadsController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        transform.position += new Vector3(0, 0, transform.GetChild(1).GetComponent<Renderer>().bounds.size.z * 3);
+        //transform.position += new Vector3(0, 0, transform.GetChild(1).GetComponent<Renderer>().bounds.size.z * 3);
+
+       
+
+
+
     }
 }
