@@ -140,7 +140,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2490945557555474770}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -10.166096, y: -0.9506073, z: 1.5882136}
+  m_LocalPosition: {x: 7.8339005, y: -0.95062304, z: -4.393619}
   m_LocalScale: {x: 0.35971218, y: 1, z: 0.35971218}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -245,37 +245,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ca2722c539df2234783afb64de449265, type: 3}
---- !u!1 &3639858626547445769
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2003972639376956265}
-  m_Layer: 0
-  m_Name: meters (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2003972639376956265
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3639858626547445769}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.8157325, y: -0.9506073, z: 13.606367}
-  m_LocalScale: {x: 0.35971218, y: 1, z: 0.35971218}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3660049630431282720}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3660049629979823358
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +357,7 @@ GameObject:
   - component: {fileID: 7707180448631679347}
   m_Layer: 0
   m_Name: RoadsLeft (1)
-  m_TagString: YanYolDuz
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -407,7 +376,6 @@ Transform:
   m_Children:
   - {fileID: 3660049630540228200}
   - {fileID: 3660049629979823359}
-  - {fileID: 2003972639376956265}
   m_Father: {fileID: 3660049630732617799}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -420,7 +388,7 @@ BoxCollider:
   m_GameObject: {fileID: 3660049630431282719}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 12.060001, y: 6.35, z: 17.761215}
   m_Center: {x: -4.099356, y: 1, z: 4.6605954}
@@ -753,7 +721,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 11.845721, y: 5.03, z: 5.407349}
-  m_Center: {x: -4.0715246, y: 1.2318791, z: -1.583215}
+  m_Center: {x: -4.0715246, y: 1.2318791, z: -2.74}
 --- !u!1 &8730356027116709022
 GameObject:
   m_ObjectHideFlags: 0
