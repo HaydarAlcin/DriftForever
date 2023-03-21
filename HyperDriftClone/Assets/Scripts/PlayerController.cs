@@ -57,8 +57,8 @@ public class PlayerController : MonoBehaviour
         rotationVector = Vector3.ClampMagnitude(rotationVector, maxAngle);
 
         //Quaternion.Euler fonksiyonu vektöre göre açý vermemizi saðlýyor rotation da kullanýlabilir.
-        leftWheel.localRotation = Quaternion.Euler(rotationVector);
-        rightWheel.localRotation = Quaternion.Euler(rotationVector);
+        leftWheel.localRotation = Quaternion.Euler(rotationVector*4);
+        rightWheel.localRotation = Quaternion.Euler(rotationVector*4);
 
 
 
